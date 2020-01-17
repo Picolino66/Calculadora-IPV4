@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="Estilo.css" />
+		<script src="Calculos.js"></script>
+		<title>Sub-Redes</title>
+	</head>
+	<body>
+	<form name="IPV4sr" action="#">
+	Quantas subredes: <br><center><input type='tel' name="ensubredes" class="fixo" ></center>
+	Ip da rede:<br> <center><input type='tel' name="ip1" class="fixo2" maxlength="3">.<input type='tel' name="ip2" class="fixo2" maxlength="3">.
+	<input type='tel' name="ip3" class="fixo2" maxlength="3">.<input type='tel' name="ip4" class="fixo2" maxlength="3"></center><br>
+	<center><input type="button" value="Calcular" onClick="CalcSubredes(this.form)" /></center>
+	Classe:<br><center><input type='text' name="classe" class="fixo" disabled="disabled" ></center>
+	Subredes:<br><center> <input type='text' name="subredes" class="fixo" disabled="disabled"></center>
+	Ip's:<br><center> <input type='text' name="nos" class="fixo" disabled="disabled"></center>
+	Bits de rede:<br><center> <input type='text' name="bitsrede" class="fixo" disabled="disabled"></center>
+	Bits de máscara:<br><center> <input type='text' name="bitsmasc" class="fixo" disabled="disabled"></center>
+	Máscara:<br> <center><input type='text' name="masc1" class="fixo2" disabled="disabled">.<input type='text' name="masc2" class="fixo2" disabled="disabled">.
+	<input type='text' name="masc3" class="fixo2" disabled="disabled">.<input type='text' name="masc4" class="fixo2" disabled="disabled"></center><br>
+	<center>
+	<input type="button" onClick="parent.location='Entrada.html'" value="Inicio">
+	</center>
+	</form>
+	</body>
+</html>
